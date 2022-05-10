@@ -1,8 +1,8 @@
 import React from "react";
 import profile from "../images/me.jpeg";
-import { FaRegEnvelope ,FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaRegEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 
-function Card({ name, title, social: { github, linkedin, email } }) {
+function Card({ name, title, social: { github, linkedin, email, phone } }) {
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
@@ -41,6 +41,13 @@ function Card({ name, title, social: { github, linkedin, email } }) {
             >
               <FaRegEnvelope />
               <span class="sr-only">Email</span>
+            </a>
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
+              href={`tel: ${phone}`}
+            >
+              <FaPhone />
+              <span class="sr-only">Phone</span>
             </a>
           </div>
         </div>

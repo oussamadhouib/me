@@ -1,5 +1,5 @@
 import React from "react";
-import { FaReact , FaNodeJs , FaJs , FaDatabase } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJs, FaDatabase } from "react-icons/fa";
 import smala from "../images/smala.png";
 import cyber from "../images/cyber.jpeg";
 
@@ -11,6 +11,7 @@ const data = {
     github: "https://github.com/oussamadhouib",
     linkedin: "https://www.linkedin.com/in/oussema-dhouib/",
     email: "oussamadhouib9697@gmail.com",
+    phone: "+216 50755773",
   },
   about: {
     title: "About Me",
@@ -38,52 +39,34 @@ const data = {
   experiences: [
     {
       title: "Fullstack Js Developer",
-      company : [smala],
-      description: "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
-      tags: [
-        "Javascript",
-        "ReactJs",
-        "NodeJs",
-        "Typescript"
-      ],
-      date : "Sep 2021 - Present",
+      company: [smala],
+      description:
+        "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
+      tags: ["Javascript", "ReactJs", "NodeJs", "Typescript"],
+      date: "Sep. 2021 - Present",
     },
     {
       title: "Fullstack Js Developer",
-      company : [cyber],
+      company: [cyber],
       description: "⚡ My portfolio built with NextJS and TailwindCSS.",
-      tags: [
-        "website",
-        "portfolio",
-        "nextjs",
-        "tailwindcss"
-      ],
-      date : "Nov 2020 - Sep 2021",
-    }
+      tags: ["website", "portfolio", "nextjs", "tailwindcss"],
+      date: "Nov. 2020 - Sep. 2021",
+    },
   ],
   projects: [
     {
       title: "React tailwind portfolio",
-      description: "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
-      tags: [
-        "template",
-        "portfolio",
-        "reactjs",
-        "tailwindcss"
-      ],
-      link: "/"
+      description:
+        "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
+      tags: ["template", "portfolio", "reactjs", "tailwindcss"],
+      link: "/",
     },
     {
       title: "My personal website",
       description: "⚡ My portfolio built with ReactJs and TailwindCSS.",
-      tags: [
-        "website",
-        "portfolio",
-        "nextjs",
-        "tailwindcss"
-      ],
-      link: "/"
-    }
-  ]
+      tags: ["website", "portfolio", "nextjs", "tailwindcss"],
+      link: "/",
+    },
+  ],
 };
 export default data;
