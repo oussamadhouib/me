@@ -26,28 +26,28 @@ function Card({ name, title, social: { github, linkedin, email, phone } }) {
               href={github}
             >
               <FaGithub />
-              <span class="sr-only">Github</span>
+              <span className="sr-only">Github</span>
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
               href={linkedin}
             >
               <FaLinkedin />
-              <span class="sr-only">Linkedin</span>
+              <span className="sr-only">Linkedin</span>
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 rounded-full hover:text-white transition-colors duration-300"
               href={"https://mail.google.com/mail/?view=cm&fs=1&to=" + email}
             >
               <FaRegEnvelope />
-              <span class="sr-only">Email</span>
+              <span className="sr-only">Email</span>
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
               href={`tel: ${phone}`}
             >
               <FaPhone />
-              <span class="sr-only">Phone</span>
+              <span className="sr-only">Phone</span>
             </a>
           </div>
         </div>

@@ -14,11 +14,11 @@ const ProjectCard = ({ project: { title, description, tags, link } }) => {
       <hr className="my-4" />
       <p className="">{description}</p>
       <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-2">
-        {tags.map((tag) => (
-          <div className="px-4 py-1 border-2 rounded-full">{tag}</div>
+        {tags.map((tag , index) => (
+          <div className="px-4 py-1 border-2 rounded-full" key={index}>{tag}</div>
         ))}
       </div>
-      <div class="w-full text-center">
+      <div className="w-full text-center">
         <GitHubButton href={link} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton>
         {"  "}
         <GitHubButton href={link + "/fork"} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</GitHubButton>
