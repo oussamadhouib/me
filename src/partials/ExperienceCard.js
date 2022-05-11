@@ -13,7 +13,10 @@ const ExperienceCard = ({
         <span className="inline align-baseline"> {date} </span>
       </div>
       <hr className="my-4" />
-      <p className="">{description}</p>
+      {
+        description && description.map((desc) => <p className="">{desc}</p>)
+      }
+      
       <div className="mt-4 mb-8 flex flex-wrap justify-center items-center gap-2">
         {tags.map((tag) => (
           <div className="px-4 py-1 border-2 rounded-full">{tag}</div>

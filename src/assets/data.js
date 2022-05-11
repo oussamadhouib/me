@@ -40,15 +40,24 @@ const data = {
     {
       title: "Fullstack Js Developer",
       company: [smala],
-      description:
-        "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
-      tags: ["Javascript", "ReactJs", "NodeJs", "Typescript"],
+      description: [
+        "✔ Participate in all aspects of agile software development including design, implementation, and deployment",
+        "✔ Architect and provide guidance on building end-to-end systems optimized for speed and scale",
+        "✔ Work primarily in Javascript, Nestjs, React, and Angular",
+        "✔ Collaborate across time zones via Slack, Gitlab comments,and documents",
+        "✔ Implementation of unit tests"
+      ],
+      tags: ["Javascript", "ReactJs", "NodeJs", "Typescript" , "Jest"],
       date: "Sep. 2021 - Present",
     },
     {
       title: "Fullstack Js Developer",
       company: [cyber],
-      description: "⚡ My portfolio built with NextJS and TailwindCSS.",
+      description: [
+        "✔ Participate in all aspects of agile software development including design, implementation, and deployment",
+        "✔ Architect and provide guidance on building end-to-end systems optimized for speed and scale",
+        "✔ Work primarily in Javascript, Nestjs, React, and Angular",
+      ],
       tags: ["website", "portfolio", "nextjs", "tailwindcss"],
       date: "Nov. 2020 - Sep. 2021",
     },
@@ -56,8 +65,10 @@ const data = {
   projects: [
     {
       title: "React tailwind portfolio",
-      description:
-        "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
+      description: [
+        "👨‍🎨 Participate in all aspects of agile software development including design, implementation, and deployment",
+        " 👨‍🎨 Architect and provide guidance on building end-to-end systems optimized for speed and scale",
+      ],
       tags: ["template", "portfolio", "reactjs", "tailwindcss"],
       link: "/",
     },

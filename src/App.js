@@ -26,7 +26,7 @@ function App() {
         <Skills skills={data.skills} />
         <Experiences experiences={data.experiences} />
         <Projects projects={data.projects} />
-        <Footer github={data.social.github} />
+        <Footer />
       </div>
     </div>
   );
