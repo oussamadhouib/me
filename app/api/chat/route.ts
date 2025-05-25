@@ -39,7 +39,7 @@ Answer questions about Oussema's experience, skills, projects, and background in
 Respond in ${language === "fr" ? "French" : "English"}.`;
 
     const { text } = await generateText({
-      model: openai("gpt-4o-mini"),
+      model: openai("gpt-3.5-turbo"),
       system: systemPrompt,
       prompt: message,
     });
