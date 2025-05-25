@@ -1,0 +1,94 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hi, I'm",
+      "title": "Fullstack Engineer",
+      "subtitle": "Building exceptional digital experiences with modern technologies",
+      "cta": "View My Work",
+      "contact": "Get In Touch"
+    },
+    "about": {
+      "title": "About Me",
+      "subtitle": "Get to know me better"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Some of my recent work",
+      "viewCode": "View Code",
+      "liveDemo": "Live Demo"
+    },
+    "skills": {
+      "title": "Skills & Technologies",
+      "subtitle": "Tools I work with",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "tools": "Tools & DevOps"
+    },
+    "contact": {
+      "title": "Let's Work Together",
+      "subtitle": "Have a project in mind? Let's discuss!",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "chatbot": {
+      "title": "Ask me anything",
+      "placeholder": "Type your question...",
+      "send": "Send"
+    }
+  },
+  "fr": {
+    "nav": {
+      "about": "À Propos",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Salut, je suis",
+      "title": "Ingénieur Fullstack",
+      "subtitle": "Créer des expériences numériques exceptionnelles avec des technologies modernes",
+      "cta": "Voir Mon Travail",
+      "contact": "Me Contacter"
+    },
+    "about": {
+      "title": "À Propos de Moi",
+      "subtitle": "Apprenez à mieux me connaître"
+    },
+    "projects": {
+      "title": "Projets Vedettes",
+      "subtitle": "Quelques-uns de mes travaux récents",
+      "viewCode": "Voir le Code",
+      "liveDemo": "Démo Live"
+    },
+    "skills": {
+      "title": "Compétences & Technologies",
+      "subtitle": "Outils avec lesquels je travaille",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "tools": "Outils & DevOps"
+    },
+    "contact": {
+      "title": "Travaillons Ensemble",
+      "subtitle": "Vous avez un projet en tête ? Discutons-en !",
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer le Message"
+    },
+    "chatbot": {
+      "title": "Demandez-moi n'importe quoi",
+      "placeholder": "Tapez votre question...",
+      "send": "Envoyer"
+    }
+  }
+}

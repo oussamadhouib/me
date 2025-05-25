@@ -1,0 +1,66 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution with Next.js frontend and NestJS backend, featuring real-time inventory management and payment processing.",
+      "technologies": ["Next.js", "NestJS", "TypeScript", "PostgreSQL", "Stripe"],
+      "image": "/placeholder.svg?height=300&width=500",
+      "github": "https://github.com/example/ecommerce",
+      "demo": "https://ecommerce-demo.com",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Task Management Mobile App",
+      "description": "Cross-platform mobile application built with React Native, featuring offline sync and collaborative workspaces.",
+      "technologies": ["React Native", "TypeScript", "Firebase", "Redux"],
+      "image": "/placeholder.svg?height=300&width=500",
+      "github": "https://github.com/example/taskapp",
+      "demo": "https://taskapp-demo.com",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Analytics Dashboard",
+      "description": "Real-time analytics dashboard with advanced data visualization and custom reporting features.",
+      "technologies": ["Next.js", "TypeScript", "D3.js", "PostgreSQL"],
+      "image": "/placeholder.svg?height=300&width=500",
+      "github": "https://github.com/example/analytics",
+      "demo": "https://analytics-demo.com",
+      "featured": true
+    }
+  ],
+  "fr": [
+    {
+      "id": 1,
+      "title": "Plateforme E-Commerce",
+      "description": "Solution e-commerce complète avec frontend Next.js et backend NestJS, incluant la gestion d'inventaire en temps réel et le traitement des paiements.",
+      "technologies": ["Next.js", "NestJS", "TypeScript", "PostgreSQL", "Stripe"],
+      "image": "/placeholder.svg?height=300&width=500",
+      "github": "https://github.com/example/ecommerce",
+      "demo": "https://ecommerce-demo.com",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Application Mobile de Gestion de Tâches",
+      "description": "Application mobile multiplateforme construite avec React Native, avec synchronisation hors ligne et espaces de travail collaboratifs.",
+      "technologies": ["React Native", "TypeScript", "Firebase", "Redux"],
+      "image": "/placeholder.svg?height=300&width=500",
+      "github": "https://github.com/example/taskapp",
+      "demo": "https://taskapp-demo.com",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Tableau de Bord Analytique",
+      "description": "Tableau de bord analytique en temps réel avec visualisation de données avancée et fonctionnalités de reporting personnalisées.",
+      "technologies": ["Next.js", "TypeScript", "D3.js", "PostgreSQL"],
+      "image": "/placeholder.svg?height=300&width=500",
+      "github": "https://github.com/example/analytics",
+      "demo": "https://analytics-demo.com",
+      "featured": true
+    }
+  ]
+}

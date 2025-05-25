@@ -1,0 +1,18 @@
+{
+  "en": {
+    "name": "Oussema Dhouib",
+    "title": "Fullstack Engineer",
+    "bio": "Hey there! I'm Oussema, a passionate fullstack engineer with 5+ years of experience building scalable web and mobile applications. I love turning complex problems into elegant solutions using modern technologies like Next.js, NestJS, and React Native. When I'm not coding, you'll find me exploring new tech trends, contributing to open source, or enjoying a good cup of coffee while planning my next project.",
+    "location": "Paris, France",
+    "email": "oussamadhouib9697@gmail.com",
+    "experience": "5+ years"
+  },
+  "fr": {
+    "name": "Oussema Dhouib",
+    "title": "Ingénieur Fullstack",
+    "bio": "Salut ! Je suis Oussema, un ingénieur fullstack passionné avec plus de 5 ans d'expérience dans le développement d'applications web et mobiles évolutives. J'adore transformer des problèmes complexes en solutions élégantes en utilisant des technologies modernes comme Next.js, NestJS et React Native. Quand je ne code pas, vous me trouverez en train d'explorer les nouvelles tendances technologiques, de contribuer à l'open source, ou de savourer un bon café en planifiant mon prochain projet.",
+    "location": "Paris, France",
+    "email": "oussamadhouib9697@gmail.com",
+    "experience": "5+ ans"
+  }
+}

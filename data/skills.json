@@ -1,0 +1,20 @@
+{
+  "frontend": [
+    { "name": "Next.js", "icon": "⚛️", "level": 95 },
+    { "name": "React", "icon": "⚛️", "level": 95 },
+    { "name": "TypeScript", "icon": "📘", "level": 90 },
+    { "name": "Tailwind CSS", "icon": "🎨", "level": 85 }
+  ],
+  "backend": [
+    { "name": "NestJS", "icon": "🐱", "level": 90 },
+    { "name": "Node.js", "icon": "🟢", "level": 88 },
+    { "name": "PostgreSQL", "icon": "🐘", "level": 85 },
+    { "name": "MongoDB", "icon": "🍃", "level": 80 }
+  ],
+  "mobile": [{ "name": "React Native", "icon": "📱", "level": 85 }, { "name": "Expo", "icon": "⚡", "level": 80 }],
+  "tools": [
+    { "name": "Docker", "icon": "🐳", "level": 75 },
+    { "name": "AWS", "icon": "☁️", "level": 70 },
+    { "name": "Git", "icon": "📝", "level": 90 }
+  ]
+}
